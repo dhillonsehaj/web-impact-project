@@ -1,8 +1,175 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
+    /* background-color: #2a5888; */
+    color: rgba(255, 255, 255, 0.75);
+    background-image: url(images/background.png);
+    background-position: 50%;
+    background-size: 130vw;
+    text-decoration: none;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: #5d51a8b0; */
+    min-height: 75vh;
+    /* height: 500px; */
+    text-align: center;
+}
+
+header {
+    font-family: 'Aleo', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #2a5888; */
+    padding-inline: 5%;
+    padding-block: 2%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0)
+    100%);
+    min-height: 15vh;
+    max-height: 25vh;
+}
+  
+.home_button {
+    display: flex;
+    align-items: center;
+}
+  
+.home_image {
+    padding-right: 3px;
+    height: 7.5vh;
+}
+
+.home_text {
+    padding-left: 0.7vw;
+    font-size: 3.5vh;
+}
+
+.nav_text {
+    font-size: 3.5vh;
+}
+
+.nav_items {
+    list-style: none;
+}
+
+.nav_items li {
+    display: inline-block;
+}
+
+.links {
+    margin-top: 1vh;
+    display: inline-block;
+}
+
+.links img {
+    padding-inline: 0.5vw;
+    height: 5vh;
+}
+
+footer {
+    font-family: 'Aleo', serif;
+    font-size: 1.5vi;
+    /* background-color: #2a5888; */
+    padding-inline: 5%;
+    padding-block: 1.5%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.9)
+    100%);
+    max-height: 25vh;
+}
+
+hr {
+    border: none;
+    border-top: 0.2vw solid #396683;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.return_home {
+    font-size: 1.8vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header a:hover, footer a:hover {
+    color: #8378c7;
+    text-decoration: none;
+}
+
+.title_page {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-weight: 1600;
+    font-size: 7vi;
+    margin: 5% auto 5% auto;
+}
+
+.cities {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    margin: 0 0 15% 0;
+}
+
+.cities a {
+    outline: rgb(91, 43, 135) 2px solid;
+    margin-inline: 20px auto;
+    padding: 4%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: rgb(86, 75, 155);
+    font-weight: 500;
+    font-size: 1.7vi;
+    min-width: 15vw;
+}
+
+.cities a:hover {
+    background-color: rgba(86, 75, 155, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.food, .location {
+    font-family: 'Alegreya', serif;
+    width: 100%;
+}
+
+.food h2, .location h2 {
+    font-size: 4vi;
+}
+
+.food ul, .location ul {
+    width: 100%;
+    margin: 0px 10% 0 10%;
+}
+
+.food li, .location li {
+    text-align: left;
 }
